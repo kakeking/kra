@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/df_bg"
+    tools:context=".DfStep5Fragment">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_margin="@dimen/df_bottom_margin">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/fifth_fragment_title"
+            android:textColor="@color/colorMain"
+            android:textSize="@dimen/df_text_size" />
+        <TextView
+            android:id="@+id/tv_step5_nf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorMain"
+            android:textSize="@dimen/df_text_size_small"
+            android:text="@string/df_step5_range_text"
+            android:layout_marginTop="@dimen/df_recycler_margin" />
+
+        <SeekBar
+            android:id="@+id/seekBar_step5"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/df_recycler_margin"
+            android:layout_height="wrap_content"
+            android:max="500"
+            android:progress="0" />
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/speaker_df_step5"
+        android:layout_width="@dimen/df_speaker_size"
+        android:layout_height="@dimen/df_speaker_size"
+        android:src="@mipmap/speaker"
+        android:adjustViewBounds="true"
+        android:scaleType="fitEnd"
+        android:background="@drawable/round_button"
+        android:layout_margin="@dimen/df_speaker_margin"
+        android:layout_gravity="right|bottom"/>
+
+</FrameLayout>

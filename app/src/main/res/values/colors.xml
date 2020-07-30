@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#143139</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="globalDrawer">#143139</color>
+    <color name="colorMain">#064658</color>
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorGrey">#919AA1</color>
+    <color name="card_back">#8A45B5B8</color>
+    <color name="greyDark">#616568</color>
+    <color name="colorTextLight">#00B4AC</color>
+    <color name="risk_high">#F33C24</color>
+    <color name="risk_medium">#FFC107</color>
+    <color name="risk_low">#8BC34A</color>
+<!--    <color name="bg_high">#CCF33C24</color>-->
+<!--    <color name="bg_medium">#CCEA6E2C</color>-->
+<!--    <color name="bg_low">#E8BB4C</color>-->
+</resources>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/signin_form"
+    tools:context=".LoginActivity"
+    android:background="@mipmap/header"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/logo_block"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/logo_nobg" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/logo_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/logo_block"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_marginRight="@dimen/login_margin">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/edit_text_margin"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/register_margin"
+                android:backgroundTint="@color/colorTextPrimary"
+                android:background="@drawable/ic_phone"/>
+            <com.hbb20.CountryCodePicker
+                android:layout_gravity="center"
+                android:id="@+id/login_ccp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                app:ccp_padding="0dp"
+                app:ccp_textSize="@dimen/edit_text_size"
+                app:ccp_contentColor="@color/colorTextPrimary"
+                app:ccp_autoDetectCountry="true"
+                app:ccpDialog_keyboardAutoPopup="false"
+                app:ccp_showFlag="false"/>
+            <EditText
+                android:id="@+id/login_phone"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/phone_number"
+                android:textColor="@color/colorTextPrimary"
+                android:backgroundTint="@color/colorTextPrimary"
+                android:textColorHint="@color/colorTextPrimary"
+                android:inputType="phone"
+                android:alpha=".6"
+                android:textSize="@dimen/edit_text_size"
+                android:padding="5dp"
+                android:layout_margin="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/register_margin">
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/check_box" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_i_have_accepted"
+                android:textColor="@color/colorGrey"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/terms_title"
+                android:id="@+id/terms_cons"
+                android:textSize="12sp"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/colorTextLight">
+            </TextView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/login_btn_text"
+            android:backgroundTint="@color/colorGrey"
+            android:textAllCaps="false"
+            android:textSize="@dimen/login_btn_size"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/verify_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_below="@id/logo_block"
+        android:layout_marginTop="90dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/register_margin"
+            android:background="@drawable/ic_lock"
+            android:backgroundTint="@color/colorTextPrimary"/>
+        <EditText
+            android:id="@+id/verify_code"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/login_verify_hint"
+            android:backgroundTint="@color/colorTextPrimary"
+            android:textColorHint="@color/colorTextPrimary"
+            android:textColor="@color/colorTextPrimary"
+            android:alpha=".8"
+            android:inputType="text"
+            android:textSize="@dimen/edit_text_size"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:layout_gravity="center"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/verify_btn"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:text="@string/login_verify_text"
+            android:backgroundTint="@color/colorGrey"
+            android:textAllCaps="true"/>
+        <Button
+            android:id="@+id/resend_btn"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:text="@string/login_resend"
+            android:backgroundTint="@color/colorGrey"
+            android:textAllCaps="true"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

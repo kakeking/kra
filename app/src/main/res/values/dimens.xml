@@ -1,0 +1,53 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+<!--    padding for nav_header_global_nav-->
+    <dimen name="nav_header_padding">16dp</dimen>
+<!--    global drawer header height-->
+    <dimen name="nav_header_height">150dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="splash_vertical_margin">20dp</dimen>
+    <dimen name= "global_profile_margin">30dp</dimen>
+    <dimen name="global_id_size">14sp</dimen>
+    <dimen name="lan_toggle_text_size">8sp</dimen>
+<!--home page-->
+    <dimen name="img_btn_size">80dp</dimen>
+    <dimen name="home_text_size">12sp</dimen>
+    <dimen name="speaker_size">40dp</dimen>
+<!--Disease Forecast page-->
+    <dimen name="instruction_text_size">18sp</dimen>
+    <dimen name="text_margin">15dp</dimen>
+    <dimen name="df_icon_size">45dp</dimen>
+    <dimen name="df_speaker_size">50dp</dimen>
+    <dimen name="tab_padding">8dp</dimen>
+    <dimen name="tab_indicator_height">3dp</dimen>
+    <dimen name="df_text_size">16sp</dimen>
+    <dimen name="df_text_size_small">14sp</dimen>
+    <dimen name="df_speaker_margin">40dp</dimen>
+    <dimen name="df_speaker_size_step2">40dp</dimen>
+    <dimen name="df_seek_bar_width">320dp</dimen>
+    <dimen name="df_bottom_margin">50dp</dimen>
+    <dimen name="df_recycler_margin">20dp</dimen>
+    <dimen name="df_card_padding">10dp</dimen>
+    <dimen name="spacing_large">10dp</dimen>
+    <dimen name="spacing_xmlarge">40dp</dimen>
+    <dimen name="item_width">40dp</dimen>
+    <!--Disease Forecast result page-->
+    <dimen name="risk_width">60dp</dimen>
+    <dimen name="df_result_margin">40dp</dimen>
+    <dimen name="df_result_page_margin">50dp</dimen>
+
+    <!--Disease Forecast history page-->
+    <dimen name="card_margin">10dp</dimen>
+    <dimen name="card_margin_small">1dp</dimen>
+    <dimen name="card_icon_size">20dp</dimen>
+    <dimen name="form_cotent_size">12sp</dimen>
+    <dimen name="form_title_size">10sp</dimen>
+<!-- Register Page-->
+    <dimen name="register_margin">16dp</dimen>
+    <dimen name="edit_text_margin">13dp</dimen>
+    <dimen name="edit_text_size">15sp</dimen>
+<!--  Login Page  -->
+    <dimen name="login_margin">10dp</dimen>
+    <dimen name="login_btn_size">18sp</dimen>
+</resources>

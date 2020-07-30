@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DfStep4Fragment">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/df_bottom_margin"
+        android:layout_marginRight="@dimen/df_bottom_margin"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fourth_fragment_title"
+            android:textColor="@color/colorMain"
+            android:textSize="@dimen/df_text_size"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerStep4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:layout_marginTop="@dimen/df_recycler_margin"
+            android:scrollingCache="true"/>
+    </LinearLayout>
+
+</FrameLayout>

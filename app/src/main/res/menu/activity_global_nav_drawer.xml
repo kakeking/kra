@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_white_24dp"
+            android:title="@string/menu_home"
+            android:iconTint="@color/colorPrimary" />
+        <item
+            android:id="@+id/nav_disease_forecast"
+            android:icon="@drawable/ic_df"
+            android:title="@string/menu_df"
+            android:iconTint="@color/colorPrimary"/>
+        <item
+            android:id="@+id/nav_machine_learning"
+            android:icon="@drawable/ic_ml"
+            android:title="@string/menu_ml"
+            android:iconTint="@color/colorPrimary"/>
+        <item
+            android:id="@+id/nav_learning_tutorials"
+            android:icon="@drawable/ic_lt"
+            android:title="@string/menu_lt"
+            android:iconTint="@color/colorPrimary" />
+        <item
+            android:id="@+id/nav_for_student"
+            android:icon="@drawable/ic_fs"
+            android:title="@string/menu_fs"
+            android:iconTint="@color/colorPrimary"/>
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_sign_out"
+            android:title="@string/menu_logout"
+            android:iconTint="@color/colorPrimary"/>
+    </group>
+</menu>

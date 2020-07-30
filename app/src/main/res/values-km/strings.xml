@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kra!</string>
+    <string name="action_settings">ការកំណត់</string>
+
+    <!-- Strings used for Disease forecast fragments -->
+    <string name="first_fragment_label">កាលបរិច្ឆេទ</string>
+    <string name="second_fragment_label">ទីតាំងភូមិសាស្ត្រ</string>
+    <string name="third_fragment_label">ភាពខុសគ្នា</string>
+    <string name="fourth_fragment_label">អាសូត</string>
+    <string name="fifth_fragment_label">ជំហានទី ៥</string>
+    <string name="sixth_fragment_label">ជំហានទី ៦</string>
+
+    <string name="first_fragment_title">កាលបរិច្ឆេទដាំ</string>
+    <string name="second_fragment_title">ទីតាំងភូមិសាស្ត្រ</string>
+    <string name="third_fragment_title">ពូជស្រូវ</string>
+    <string name="fourth_fragment_title">ប្រភេទជី</string>
+    <string name="fifth_fragment_title">ចំនួនទឹកប្រាក់ជីអាសូត</string>
+    <string name="last_fragment_title">អត្រាការបណ្ដុះ</string>
+    <string name="first_fragment_text">សូមជ្រើសរើសកាលបរិច្ឆេទ </string>
+    <string name="first_fragment_speak">សូមជ្រើសរើសកាលបរិច្ឆេទដោយចុចលើរូបតំណាងកាលបរិច្ឆេទ</string>
+    <string name="second_fragment_text">សូមជ្រើសរើសទីតាំងរបស់អ្នក </string>
+    <string name="second_fragment_speak">សូមជ្រើសរើសទីតាំងដោយដៅកន្លែងរបស់អ្នក</string>
+    <string name="third_fragment_speak">សូមជ្រើសរើសពូជស្រូវ</string>
+    <string name="fourth_fragment_speak">សូមជ្រើសរើសប្រភេទជីអាសូត</string>
+    <string name="fifth_fragment_speak">សូមបរិមាណជីអាសូត</string>
+    <string name="last_fragment_speak">សូមរុញដើម្បីជ្រើសរើសអត្រានៃការបណ្ដុះ</string>
+
+    <string name="df_step3_item1_name">សែនក្រោប</string>
+    <string name="df_step3_item2_name">ភររំដួល</string>
+    <string name="df_step3_item3_name">Phka Malis</string>
+    <string name="df_step3_item4_name">កាញី</string>
+    <string name="df_step3_item5_name">អូ</string>
+    <string name="df_step3_item6_name">ស្រង៉ែ</string>
+    <string name="df_step4_item1_name">យូរ៉ា</string>
+    <string name="df_step4_item2_name">ឌីភី</string>
+    <string name="df_step4_item3_name">អិនខេខេ</string>
+    <string name="df_unit">គីឡូក្រាម / ហិកតា</string>
+    <string name="df_unit_speak">គីឡូក្រាមក្នុងមួយហិកតា</string>
+
+    <!-- Strings used for Disease forecast result page -->
+    <string name="df_result_page_name">លទ្ធផល</string>
+    <string name="df_result_risk_high">ខ្ពស់</string>
+    <string name="df_step6_submit">ដាក់ស្នើ</string>
+    <string name="df_step6_range_text">ជួរ: ០ - ៣០០ គីឡូក្រាម / ហិកតា</string>
+    <string name="df_step5_range_text">ជួរ: ០ - ៥០០ គីឡូក្រាម / ហិកតា</string>
+    <string name="df_result_title_text">ហានិភ័យនៃការផ្លុំស្លឹកត្រូវបានចាត់ថ្នាក់ជាៈ</string>
+    <string name="df_result_mr">ដាក់ជីពូជនីមួយៗឱ្យបានត្រឹមត្រូវ។ ជៀសវាងការប្រើប្រាស់ជីអាសូតច្រើនពេកដោយប្រើគ្រាប់ពូជដែលមានគុណភាពខ្ពស់និងគ្មានជំងឺ</string>
+    <string name="df_result_mr_title">អនុសាសន៍គ្រប់គ្រង:</string>
+    <string name="df_result_risk_low">ទាប</string>
+    <string name="df_result_risk_medium">មធ្យម</string>
+
+
+    <!--    Strings for global navigation drawer-->
+    <string name="navigation_drawer_open">ការបើកចំហរថតការរុករក</string>
+    <string name="navigation_drawer_close">ផ្ទាំងបញ្ជីកម្មវិធីរុករកយ៉ាងជិតស្និទ្ធ</string>
+    <string name="menu_home">ផ្ទះ</string>
+    <string name="menu_df">ការព្យាករពីជំងឺ</string>
+    <string name="menu_lt">ការបង្រៀនការរៀន</string>
+    <string name="menu_ml">ធ្វើរោគវិនិច្ឆ័យជំងឺ  </string>
+    <string name="menu_fs">សម្រាប់សិស្សនិស្សិត</string>
+    <string name="menu_logout">ចាកចេញ</string>
+    <string name="nav_header_title">Kra!</string>
+    <string name="google_maps_api_key">AIzaSyDOY_2myAK5qdlf9hrWTOdfBCTU_ae0UiU</string>
+    <string name="open_weather_api_key">a3f127679252479ad077c9c40dfafb68</string>
+    <string name="weather_api_key">64ed820f1daf436382735819202505</string>
+    <string name="google_message_server_key">AAAACVwpELQ:APA91bHMtBzItTKwBGVJOMBO0pXeo3FmtVOPxY4rWeDJXWeUjgwuAbyqP1mOLzvujWI_DYQM6sq3W-_BXxzVzCTuLe_K6bX-vM5bamNMaRXtmGNjuHKIWZyjUh8txTzIHgJV5EPGo0c4</string>
+
+    <string name="take_photo_button">ថតរូប</string>
+    <string name="choose_photo_button">ជ្រើសពីបណ្ណាល័យ</string>
+    <string name="diagnose_photo_button">ធ្វើរោគវិនិច្ឆ័យ</string>
+
+    <!--    Strings for register page-->
+    <string name="terms_title">លក្ខខណ្ឌ &amp; លក្ខខណ្ឌ</string>
+    <string name="terms_and_conditions">លម្អិត</string>
+
+    <!-- Strings for login page-->
+    <string name="login_btn_text">ចូល</string>
+    <string name="phone_number">លេខទូរសព្ទ</string>
+    <string name="loading_message">ការផ្ទៀងផ្ទាត់…</string>
+    <string name="text_i_have_accepted">ខ្ញុំបានទទួលយក</string>
+    <string name="login_resend">ផ្ញើសារឡើងវិញ</string>
+    <string name="login_verify_hint">សូម​បញ្ចូល​កូដ</string>
+    <string name="login_verify_text">ផ្ទៀង​ផ្ទាត់</string>
+
+    <!-- Strings used for Disease tutorial learning -->
+    <string name="test1_txt">តើស្លឹកផ្លុំគឺជាអ្វី?</string>
+    <string name="listening_input">ស្តាប.</string>
+    <string name="test2_txt">ជំងឺស្រូវ.</string>
+    <string name="test3_txt">ស្នាមស្លឹករបស់បាក់តេរី។.</string>
+    <string name="test4_txt">ជំងឺសំខាន់ៗនៃស្រូវ។.</string>
+    <string name="test5_txt">ចំណុចស្លឹកពណ៌ត្នោត.</string>
+    <string name="test6_txt">ដំណាំស្រូវរបស់ស្រូវ.</string>
+    <string name="test7_txt">ជំងឺស្រូវផ្ទុះឡើង.</string>
+    <string name="tut_search">ស្វែងរក…</string>
+    <string name="channel_txt">ឆានែលបង្រៀន</string>
+
+    <string name="next">ក្រោយ</string>
+    <string name="previous">មុន</string>
+    <string name="df_alert_title">កំហុស!</string>
+    <string name="df_alert_first">អ្នកមិនបានកំណត់ទិន្នន័យដូចខាងក្រោមៈ </string>
+    <string name="df_delete_title">បញ្ជាក់លុប</string>
+    <string name="df_delete_message">តើអ្នកប្រាកដជាចង់លុបកំណត់ត្រានេះឬ?</string>
+    <string name="df_no_delete_title">ដាស់តឿន!</string>
+    <string name="df_no_delete_message">អ្នកមិនត្រូវបានអនុញ្ញាតឱ្យលុបកំណត់ត្រាចុងក្រោយទេ</string>
+
+    <!--    text for disease forecast history page-->
+    <string name="df_log_speak_1">អ្នកបានបង្កើតកំណត់ត្រា </string>
+    <string name="df_log_speak_2">ចុចប៊ូតុងខាងឆ្វេងប្រសិនបើអ្នកចង់ប្រើទិន្នន័យមុនចុចប៊ូតុងខាងស្តាំប្រសិនបើអ្នកចង់ចាប់ផ្តើមថ្មី</string>
+    <string name="df_log_pd">អ្នកដាំស្រូវនៅ</string>
+    <string name="df_log_nf">អ្នកបានប្រើជីអាសូត</string>
+    <string name="df_log_rv">ភាពខុសគ្នា</string>
+    <string name="cd_pd">កាលបរិច្ឆេទដាំ៖</string>
+    <string name="cd_lr">កំណត់ត្រាបច្ចុប្បន្ន</string>
+    <string name="cd_rv">ភាពខុសគ្នា៖</string>
+    <string name="cd_loc">ទីតាំង៖</string>
+    <string name="cd_nft">ប្រភេទ N៖</string>
+    <string name="cd_sr">អត្រាការដាំដុះ:</string>
+    <string name="cd_nfa">ចំនួនទឹកប្រាក់គ្មានកូន៖</string>
+    <string name="cd_ut_btn">ប្រើ​នេះ</string>
+    <string name="cd_cn_btn">បង្កើត​ថ្មី</string>
+    <string name="record_days">ថ្ងៃបន្ទាប់ពីដាំ</string>
+    <string name="record_temp">សីតុណ្ហាភាព</string>
+    <string name="record_humid">សំណើម</string>
+    <string name="record_rain">ទឹកភ្លៀង</string>
+    <string name="record_risk">ពិន្ទុហានិភ័យ</string>
+    <string name="df_history_created_on">បង្កើតលើ៖</string>
+    <string name="notification_title">Kra! សំឡេងរោទិ៍ </string>
+    <string name="notificaiton_text">លទ្ធភាពខ្ពស់នៃការផ្ទុះជំងឺរាតត្បាតក្នុងទីតាំងរបស់អ្នកថ្ងៃនេះ</string>
+    <!--    <string name="cd_risk">Risk:</string>-->
+    <string name="df_result_gb_btn">ត្រឡប់​ក្រោយ</string>
+    <string name="cd_log_title">ប្រវត្តិសាស្រ្ត</string>
+    <string name="dialog_ok">យល់ព្រម</string>
+    <string name="dialog_cancel">បោះបង់</string>
+
+</resources>

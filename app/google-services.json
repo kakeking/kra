@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "40200900788",
+    "firebase_url": "https://rice-app-e2a61.firebaseio.com",
+    "project_id": "rice-app-e2a61",
+    "storage_bucket": "rice-app-e2a61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40200900788:android:7a0670d34fe0029d8d87e1",
+        "android_client_info": {
+          "package_name": "com.usyd.riceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40200900788-mn72hj3us7fk5ncarucuvst3jro0vt05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKymvndN3B08BlMeUp6xBM5AWWoAZMAuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40200900788-mn72hj3us7fk5ncarucuvst3jro0vt05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

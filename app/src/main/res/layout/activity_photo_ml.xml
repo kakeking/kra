@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorMain"
+        android:text="@string/take_photo_button"
+        android:onClick="TakePhotoClick"
+        />
+
+    <Button
+        android:id="@+id/btn_photo_album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_photo_button"
+        android:backgroundTint="@color/colorMain"
+        android:onClick="ChoosePhotoClick"/>
+
+    <Button
+        android:id="@+id/btn_diagnose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/diagnose_photo_button"
+        android:backgroundTint="@color/colorMain"
+        />
+</LinearLayout>
