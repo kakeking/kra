@@ -1,5 +1,6 @@
 #  Kra
 Kra is an Android platform application we did for client as capstone project. This project aims to help northest Combodian small holder farmers effectively manage rice diseases, reduce chemical spray usage and improve rice yield. Khmer language support and text to speech were added for localization. 
+This project was previously hold in uni internal github, moved my part of work to public repo. 
 
 ## Language
 This application use Java and native SDK as development tool, Firebase as database.
